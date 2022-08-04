@@ -1,0 +1,103 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+}
+
+body {
+  background-image: url(/css/img/Скачать\ 1920x1080\ волны\,\ океан\,\ вид\ сверху\,\ вода\ обои\,\ картинки\ full\ hd\,\ hdtv\,\ fhd\,\ 1080p.jpg);
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+}
+
+#first {
+  backdrop-filter: blur(9px) saturate(200%);
+  -webkit-backdrop-filter: blur(9px) saturate(200%);
+  background-color: rgba(17, 25, 40, 0.66);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  width: 80%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#first .all {
+  padding: 200px 200px;
+}
+#first .all button {
+  padding: 10px 80px;
+  border-radius: 5px;
+  border: 2px solid rgb(92, 196, 231);
+  margin: 70px 0 0 100px;
+  background-color: rgba(110, 200, 216, 0.514);
+  color: rgb(26, 22, 22);
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.5s;
+}
+#first .all button:hover {
+  background-color: lightblue;
+}
+#first .amount {
+  margin-bottom: 50px;
+}
+#first .terms {
+  margin-bottom: 50px;
+}
+#first h1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+#first input {
+  width: 100%;
+  padding: 10px 0;
+  border-style: none;
+  border-radius: 5px;
+  background-color: rgba(110, 200, 216, 0.514);
+}
+#first input:focus {
+  border-style: none;
+  background-color: lightblue;
+}
+#first label {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+#first select {
+  width: 100%;
+  border-style: none;
+  border-radius: 5px;
+  padding: 10px 0;
+  background-color: rgba(110, 200, 216, 0.514);
+  color: white;
+}
+#first select:focus {
+  border-style: none;
+  background-color: lightblue;
+}
+#first .right {
+  position: relative;
+}
+#first .right h5 {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+  margin: 80px 0 0 80px;
+}
+#first .right::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 200px;
+  background-color: rgba(128, 128, 128, 0.315);
+  left: 30px;
+  top: 0;
+}/*# sourceMappingURL=style.css.map */
